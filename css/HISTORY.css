@@ -25,7 +25,6 @@ a:hover {
 /* Navigation */
 nav {
     padding: 30px 0;
-    background-color: rgb(124, 223, 223);
     color: yellow;
    
 }
@@ -46,7 +45,7 @@ nav ul li a {
 
 /* Header Section */
 .cover {
-    background: url('fashion-background.jpg') center/cover no-repeat;
+    background: url('history.jpg') center/cover no-repeat;
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -173,4 +172,30 @@ footer ul li {
 
 footer ul li a {
     color: white;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fondo claro */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }

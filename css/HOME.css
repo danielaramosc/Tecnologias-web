@@ -77,7 +77,7 @@ h2 {
 
 /* Updated paragraph inside <main> to light green */
 main p {
-    font-size: 3rem;
+    font-size: 2rem;
     color: lightgreen;
 }
 

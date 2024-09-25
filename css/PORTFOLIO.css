@@ -1,32 +1,32 @@
-/* General Styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0fff0; /* Verde muy claro */
+    background-color: #f0f8ff; /* Fondo azul claro */
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 main {
@@ -37,67 +37,47 @@ h1, h2 {
     color: #333;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Portfolio Page Styles */
-.portfolio-section {
-    background-color: #f0fff0; /* Fondo verde muy claro */
-    border: 5px solid #e60073; /* Borde fucsia */
+/* Portfolio Section */
+.portfolio {
+    background-color: #e6f7ff; /* Fondo azul claro */
     padding: 20px;
-    margin: 20px auto;
-    max-width: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-image: linear-gradient(90deg, #3cb371 1px, transparent 1px), 
-                      linear-gradient(#3cb371 1px, transparent 1px); /* Cuadros verdes */
-    background-size: 20px 20px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.portfolio-section h2 {
+.portfolio h2 {
     text-align: center;
     color: #333;
 }
 
-/* Grid layout for the portfolio items */
-.portfolio-grid {
+.projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 20px; /* Espacio entre los proyectos */
 }
 
-.portfolio-item {
-    background-color: white;
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 30%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
+.project {
+    text-align: center;
+    width: 30%; /* Cada proyecto toma el 30% del ancho */
 }
 
-.portfolio-item:hover {
-    transform: scale(1.05);
+.project img {
+    width: 100%;  /* Ajusta la imagen al 100% del ancho del contenedor */
+    height: 300px; /* Establecer la altura fija para todas las imágenes */
+    object-fit: cover; /* Recorta la imagen para que se ajuste a la altura y el ancho */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
-.portfolio-item img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.portfolio-item h3 {
-    color:blue;
+.project h3 {
+    color: #333;
+    margin-top: 10px;
 }
 
 /* Footer */
 footer {
     background-color: #333;
-    color: grey;
-    padding: 20px;
+    color: white;
     text-align: center;
+    padding: 10px;
 }
