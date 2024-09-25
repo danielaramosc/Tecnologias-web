@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: yellow;
+    font-weight: bold;
+}
+
+/* Cover/Header Section */
+.cover {
+    background: linear-gradient(45deg, white 15%, lightpink 15%, lightpink 30%, white 30%, white 45%, lightpink 45%, lightpink 60%, white 60%, white 75%, lightpink 75%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.header-content h1 {
+    color: darkblue;
+    font-size: 4rem;
+    margin: 0;
+}
+
+/* Updated paragraph color to light blue */
+.header-content p {
+    font-size: 1.5rem;
+    color: skyblue;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Updated heading (Introduction) to dark green */
+h2 {
+    font-size: 4rem;
+    color: darkgreen;
+}
+
+/* Updated paragraph inside <main> to light green */
+main p {
+    font-size: 3rem;
+    color: lightgreen;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: grey;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: blueviolet;
+}
